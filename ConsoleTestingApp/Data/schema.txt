@@ -3,3 +3,9 @@ ID:Int32,
 Name:String,
 TagType:String,
 }
+{Subjects:4,
+ID:Int32,
+Name:String,
+OpenFreq:Int32,
+TimeTracked:String,
+}

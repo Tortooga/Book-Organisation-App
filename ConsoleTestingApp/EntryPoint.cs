@@ -5,13 +5,16 @@ using System.Formats.Asn1;
 using System.Reflection;
 
 Console.WriteLine("hello");
-Tag.table.InitialiseTable();
-Tag tag = new Tag("Long", TagCategory.Book);
-tag.Record();
-List<Tag> tags = Tag.getAll(Tag.table);
+// Tag.table.InitialiseTable();
+Subject.table.InitialiseTable();
 
-foreach (Tag t in tags)
+Subject subject = new Subject("Math", 0, new TimeSpan(0,0,2,0));
+
+subject.Record();
+
+List<Subject> subjects = Subject.getAll(Subject.table);
+
+foreach (Subject item in subjects)
 {
-    Console.WriteLine(t);
+    Console.WriteLine(item);
 }
-
