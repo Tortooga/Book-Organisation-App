@@ -1,0 +1,5 @@
+{Tags:3,
+ID:Int32,
+Name:String,
+TagType:String,
+}

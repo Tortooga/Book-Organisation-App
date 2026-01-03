@@ -11,7 +11,7 @@ namespace Modules.FileDB
         public abstract int? Id { set; get; }
         public abstract string Name { set; get; }
         protected abstract Table TableI();
-        protected abstract Dictionary<string, object> GetFields();
+        protected abstract Dictionary<string, object?> GetFields();
 
         public bool Record(bool force = false)
         {
@@ -71,10 +71,6 @@ namespace Modules.FileDB
                     {
                         throw new Exception($"Warning: Null value at Table: {table.name}, Object ID: {record[0]}");
                     }
-                }
-                foreach (object field in typedFields)
-                {
-                    Console.WriteLine(field.ToString());
                 }
                 curObject = (T)Activator.CreateInstance(typeof(T), typedFields); //TODO: There isnt an issue but fix this warning
                 curObject.Id = Int32.Parse(record[0]); //Assigning the ID

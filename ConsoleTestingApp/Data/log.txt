@@ -1,0 +1,10 @@
+03/01/2026 19:41:37 | Hello
+03/01/2026 19:43:41 | Hello
+03/01/2026 20:45:47 | schema file created.
+03/01/2026 20:45:47 | Tags was validated successfully
+03/01/2026 20:45:47 | DataBase table created: Tags
+03/01/2026 20:45:54 | Warning: Could not Initiate Tags, it already exists.
+03/01/2026 20:46:13 | Warning: Could not Initiate Tags, it already exists.
+03/01/2026 20:46:43 | Warning: Could not Initiate Tags, it already exists.
+03/01/2026 20:48:17 | Warning: Could not Initiate Tags, it already exists.
+03/01/2026 20:49:10 | Warning: Could not Initiate Tags, it already exists.
