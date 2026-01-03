@@ -1,6 +1,6 @@
 namespace Modules.Modules
 {
-    class Person
+    public class Person
     {
         public static string hello()
         {

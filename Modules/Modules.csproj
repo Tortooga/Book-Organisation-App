@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Omer\Desktop\MLHBookApp\Book-Organisation-App\Modules\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Omer\Desktop\MLHBookApp\Book-Organisation-App\Modules\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FileDB\" />
+  </ItemGroup>
+
 </Project>
