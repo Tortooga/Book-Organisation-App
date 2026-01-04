@@ -9,3 +9,12 @@ Name:String,
 OpenFreq:Int32,
 TimeTracked:String,
 }
+{Books:7,
+ID:Int32,
+Name:String,
+ParentSubject:Int32,
+OpenFreq:Int32,
+TimeTracked:String,
+IsOpen:Boolean,
+MostRecentOpen:String,
+}

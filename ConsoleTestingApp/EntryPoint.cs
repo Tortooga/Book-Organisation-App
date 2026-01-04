@@ -7,14 +7,9 @@ using System.Reflection;
 Console.WriteLine("hello");
 // Tag.table.InitialiseTable();
 Subject.table.InitialiseTable();
+Subject subject = new Subject("Math", 10, new TimeSpan(0,0,0,0));
+Book.table.InitialiseTable();
 
-Subject subject = new Subject("Math", 0, new TimeSpan(0,0,2,0));
+Book book = new Book("Steven Abott", subject, 10, new TimeSpan(0,0,0,0), false, null);
 
-subject.Record();
-
-List<Subject> subjects = Subject.getAll(Subject.table);
-
-foreach (Subject item in subjects)
-{
-    Console.WriteLine(item);
-}
+book.Record();
