@@ -13,3 +13,9 @@ Book.table.InitialiseTable();
 Book book = new Book("Steven Abott", subject, 10, new TimeSpan(0,0,0,0), false, null);
 
 book.Record();
+List<Book> books = Book.getAll(Book.table);
+
+foreach (Book item in books)
+{
+    Console.WriteLine(book.ParentSubject);
+}

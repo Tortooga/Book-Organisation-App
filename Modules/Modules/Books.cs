@@ -34,7 +34,7 @@ namespace Modules.Modules
         public override string Name { get; set; }
 
         public Subject? ParentSubject { get; set; }
-        private int GetSubjectId() => (ParentSubject == null || ParentSubject.Id == null) ? -1 : (int)ParentSubject.Id;
+        private int GetSubjectId() => (ParentSubject == null || ParentSubject.Id == null) ? 69420 : (int)ParentSubject.Id;
 
         public int OpenFreq { get; set; }
         public TimeSpan TimeTracked { get; set; }
@@ -83,7 +83,7 @@ namespace Modules.Modules
 
         Subject? ReconcileSubjectRecord(int subjectId)
         {
-            if (subjectId == -1)
+            if (subjectId == 69420)//TODO: fix this
             {
                 return null;
             }

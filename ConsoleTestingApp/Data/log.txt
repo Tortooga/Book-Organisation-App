@@ -35,3 +35,11 @@
 04/01/2026 14:04:48 | Error: attempted to record -1 to ParentSubject in Books, - is an invalid charecter for that field
 04/01/2026 14:04:48 | Error: Could not commit record Steven Abott-11000 00_00_00False0001_01_01 12_00 to Books
 04/01/2026 14:04:48 | Error: Could not write record Steven Abott to Books
+04/01/2026 15:15:33 | Warning: Could not Initiate Subjects, it already exists.
+04/01/2026 15:15:33 | Warning: Could not Initiate Books, it already exists.
+04/01/2026 15:15:37 | Warning: Could not Initiate Subjects, it already exists.
+04/01/2026 15:15:37 | Warning: Could not Initiate Books, it already exists.
+04/01/2026 15:15:40 | Warning: Could not Initiate Subjects, it already exists.
+04/01/2026 15:15:40 | Warning: Could not Initiate Books, it already exists.
+04/01/2026 15:17:29 | Warning: Could not Initiate Subjects, it already exists.
+04/01/2026 15:17:29 | Warning: Could not Initiate Books, it already exists.
